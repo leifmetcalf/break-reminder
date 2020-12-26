@@ -1,0 +1,8 @@
+[Unit]
+Description=Take a break every 15 minutes
+
+[Timer]
+OnCalendar=*-*-* *:00/15:00
+
+[Install]
+WantedBy=timers.target

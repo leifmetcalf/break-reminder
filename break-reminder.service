@@ -1,0 +1,5 @@
+[Unit]
+Description=Break reminder
+
+[Service]
+ExecStart=/usr/bin/notify-send "Take a break"
