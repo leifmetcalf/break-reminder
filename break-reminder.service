@@ -2,4 +2,4 @@
 Description=Break reminder
 
 [Service]
-ExecStart=/usr/bin/notify-send "Take a break"
+ExecStart=/usr/bin/notify-send --hint int:transient:1 "Take a break"
